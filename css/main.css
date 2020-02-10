@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+
+.galeria{
+
+    margin: 10px 50px;
+
+}
+
+.galeria img{
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+}
+
+.galeria img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+#titulo{
+    color: blanchedalmond;
+    font-family: 'Anton', sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
